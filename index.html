@@ -2,24 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Find Singles Near You</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet Local Singles</title>
   <style>
-    body { background-color: #f4f4f4; font-family: Arial, sans-serif; text-align: center; padding: 30px; color: #333; }
-    .container { background: #fff; border-radius: 12px; padding: 20px; max-width: 400px; margin: auto; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
-    h1 { font-size: 24px; margin-bottom: 10px; }
-    p { font-size: 16px; margin-bottom: 20px; }
-    .btn { background: #e60073; color: #fff; padding: 12px 25px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-block; }
-    .btn:hover { background: #cc005f; }
-    .disclaimer { font-size: 12px; color: #999; margin-top: 20px; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #1a1a1a;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 480px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #2c2c2c;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 0, 128, 0.3);
+    }
+    h1 {
+      color: #ff4da6;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+    input[type="text"],
+    input[type="email"] {
+      width: 90%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      background-color: #ff3399;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #e60073;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #666;
+    }
   </style>
 </head>
 <body>
+
   <div class="container">
-    <h1>Find Local Singles Near You</h1>
-    <p>Click below to continue and see matches in your area.</p>
-    <a href="#" class="btn">Enter Your ZIP Code</a>
-    <p class="disclaimer">18+ Only. This site contains adult content and is intended for mature audiences.</p>
+    <h1>Find Your Perfect Match ❤️</h1>
+    <p>Enter your name and email to get access to premium dating offers near you.</p>
+
+    <form method="post" action="https://www.sendsteed.com/subscribe/">
+      <input name="e110450" required type="email" placeholder="Your Email">
+      <input name="n110450" required type="text" placeholder="Your Name">
+      <input type="hidden" name="lllid" value="110450">
+      <input type="hidden" name="lluid" value="akashcpa">
+      <input type="hidden" name="redirect" value="https://your-offer-link.com"> <!-- এখানে অফার লিংক বসাবেন -->
+      <input type="hidden" name="source" value="">
+      <button type="submit">Get Access Now</button>
+    </form>
   </div>
+
+  <div class="footer">
+    &copy; 2025 Adult Dating Offers | All rights reserved.
+  </div>
+
 </body>
-    </html>
+        </html>
